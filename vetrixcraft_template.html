@@ -1,0 +1,113 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VetrixCraft</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: #ddd;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #1e1e1e;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        header h1 {
+            color: #f0b400;
+            margin: 0;
+        }
+        .container {
+            padding: 20px;
+        }
+        .news {
+            margin-bottom: 20px;
+        }
+        .news h2 {
+            color: #f0b400;
+        }
+        .news ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .news li {
+            background-color: #2b2b2b;
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .button {
+            background-color: #f0b400;
+            border: none;
+            padding: 10px 20px;
+            color: #121212;
+            font-size: 16px;
+            cursor: pointer;
+            text-align: center;
+            border-radius: 5px;
+            margin: 10px;
+            display: inline-block;
+            text-decoration: none;
+        }
+        .button:hover {
+            background-color: #e6a100;
+        }
+        #side-button {
+            position: fixed;
+            right: 20px;
+            bottom: 20px;
+            background-color: #f0b400;
+            padding: 15px 25px;
+            color: #121212;
+            font-size: 18px;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        .complaints {
+            margin-top: 20px;
+        }
+        .complaints h2 {
+            color: #f0b400;
+        }
+        .complaints a {
+            color: #f0b400;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Добро пожаловать в VetrixCraft</h1>
+    <p>Играйте на нашем сервере Minecraft, наслаждайтесь уникальными возможностями!</p>
+</header>
+
+<div class="container">
+    <section class="news">
+        <h2>Лента новостей</h2>
+        <ul>
+            <li><strong>Обновление 1.0:</strong> Новый игровой режим доступен! Присоединяйтесь к приключениям на VetrixCraft.</li>
+            <li><strong>Обновление 1.1:</strong> Добавлены новые мини-игры и улучшена производительность сервера.</li>
+            <li><strong>Обновление 1.2:</strong> Внесены исправления в работу плагинов, улучшен баланс игры.</li>
+        </ul>
+    </section>
+
+    <section class="complaints">
+        <h2>Жалобы</h2>
+        <p>Если у вас есть жалобы или предложения, пожалуйста, перейдите в наш <a href="https://discord.gg/yourdiscordlink" target="_blank">Discord-сервер</a>.</p>
+    </section>
+
+    <a href="https://discord.gg/yourdiscordlink" class="button" target="_blank">Присоединиться к Discord</a>
+</div>
+
+<div id="side-button" class="button" onclick="alert('IP сервера: play.vetrixcraft.com')">
+    Узнать IP сервера
+</div>
+
+</body>
+</html>
